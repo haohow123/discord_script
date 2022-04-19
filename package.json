@@ -1,0 +1,17 @@
+{
+  "name": "discord_script",
+  "version": "1.0.0",
+  "description": "Discord script",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --ignore-path .gitignore \"./**/*.js\" --write"
+  },
+  "author": "Hao",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "prettier": "^2.6.2"
+  }
+}
